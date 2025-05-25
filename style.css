@@ -1,0 +1,158 @@
+/*
+Color
+    https://colorhunt.co/palette/fbdb93be5b508a2d3b641b2e
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5EEDC;
+}
+
+.heading {
+    font-weight: bolder;
+}
+
+.title {
+    color: #27548A;
+    margin: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/*
+///////////////////////////////////////////////////////////////
+///////////////          WEB HEADER            ////////////////
+///////////////////////////////////////////////////////////////
+*/
+
+.header {
+    background-color: #183B4E;
+    color: #DDA853;
+    padding: 10px;
+}
+
+.header .nav-bar {
+    margin: 0 auto;
+    width: 60%;
+    display: flex !important;
+    justify-content: space-around;
+}
+
+.header .nav-bar a {
+    color: #F5EEDC;
+    text-decoration: none;
+}
+
+.header .nav-bar a:hover {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header .header a:active {
+    color: #F5EEDC;
+    text-decoration: none;
+}
+
+.header .header a:visited {
+    color: #F5EEDC;
+    text-decoration: none;
+}
+
+.header .nav-bar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex !important;
+    justify-content: center;
+}
+
+.header .nav-bar ul li {
+    margin: 0 5px;
+}
+
+/*
+///////////////////////////////////////////////////////////////
+///////////////          WEB CONTENT            ///////////////
+///////////////////////////////////////////////////////////////
+*/
+
+.slideshow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideshow-img {
+    width: 500px;
+    height: 250px;
+}
+
+.carousel {
+    max-width: 500px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    align-items: center;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.8));
+}
+
+.product-categorize {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categorize .btn{
+    background-color: #F5EEDC;
+    margin: 5px;
+    padding: 10px;
+    min-width: fit-content;
+    width: 200px;
+}
+
+.categorize .btn:hover {
+    background-color: #27548A;
+}
+
+/*
+///////////////////////////////////////////////////////////////
+///////////////          WEB FOOTER            ////////////////
+///////////////////////////////////////////////////////////////
+*/
+
+.footer {
+    background-color: #183B4E;
+    padding: 10px;
+}
+
+.footer .footer-ele {
+    color: #F5EEDC;
+}
+
+.footer-ele p {
+    width: 400px;
+}
+
+.footer .footer-ele a {
+    color: #F5EEDC;
+    text-decoration: none;
+}
+
+.footer .footer-ele a:hover {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer .footer-ele a:active {
+    color: #F5EEDC;
+    text-decoration: none;
+}
+
+.footer .footer-ele a:visited {
+    color: #F5EEDC;
+    text-decoration: none;   
+}
