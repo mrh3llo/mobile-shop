@@ -9,7 +9,7 @@ Color
 }
 
 body {
-    background-color: #F5EEDC;
+    background: linear-gradient(to bottom, white 0%, #F5EEDC 100%);
 }
 
 .heading {
@@ -23,6 +23,16 @@ body {
     text-align: center;
 }
 
+.zoom-out-anm {
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.zoom-out-anm:hover {
+    transform: scale(1.1); /* Phóng to nhẹ */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Đổi bóng */
+}
+
 /*
 ///////////////////////////////////////////////////////////////
 ///////////////          WEB HEADER            ////////////////
@@ -31,47 +41,13 @@ body {
 
 .header {
     background-color: #183B4E;
-    color: #DDA853;
-    padding: 10px;
-}
-
-.header .nav-bar {
-    margin: 0 auto;
-    width: 60%;
-    display: flex !important;
-    justify-content: space-around;
-}
-
-.header .nav-bar a {
     color: #F5EEDC;
-    text-decoration: none;
+    padding: 15px;
 }
 
-.header .nav-bar a:hover {
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.header .header a:active {
+.navbar {
+    background-color: #27548A;
     color: #F5EEDC;
-    text-decoration: none;
-}
-
-.header .header a:visited {
-    color: #F5EEDC;
-    text-decoration: none;
-}
-
-.header .nav-bar ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex !important;
-    justify-content: center;
-}
-
-.header .nav-bar ul li {
-    margin: 0 5px;
 }
 
 /*
@@ -108,6 +84,7 @@ body {
 
 .categorize .btn{
     background-color: #F5EEDC;
+    color: #183B4E;
     margin: 5px;
     padding: 10px;
     min-width: fit-content;
@@ -116,6 +93,7 @@ body {
 
 .categorize .btn:hover {
     background-color: #27548A;
+    color: #F5EEDC;
 }
 
 /*
@@ -135,24 +113,4 @@ body {
 
 .footer-ele p {
     width: 400px;
-}
-
-.footer .footer-ele a {
-    color: #F5EEDC;
-    text-decoration: none;
-}
-
-.footer .footer-ele a:hover {
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.footer .footer-ele a:active {
-    color: #F5EEDC;
-    text-decoration: none;
-}
-
-.footer .footer-ele a:visited {
-    color: #F5EEDC;
-    text-decoration: none;   
 }
