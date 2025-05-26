@@ -37,6 +37,10 @@ body {
     list-style-type: none;
 }
 
+.fit-content {
+    width: fit-content;
+}
+
 /*
 ///////////////////////////////////////////////////////////////
 ///////////////          WEB HEADER            ////////////////
@@ -69,6 +73,12 @@ body {
 .slideshow-img {
     width: 500px;
     height: 250px;
+}
+
+.member-img  {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 .carousel {
@@ -117,5 +127,6 @@ body {
 }
 
 .footer-ele p {
+    text-align: justify;
     width: 400px;
 }
