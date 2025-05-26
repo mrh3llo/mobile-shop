@@ -96,18 +96,20 @@ body {
     align-items: center;
 }
 
-.categorize .btn{
+.categorize,
+.submit-btn{
     background-color: #F5EEDC;
-    color: #183B4E;
+    color: #183B4E !important;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.1));
     margin: 5px;
     padding: 10px;
     min-width: fit-content;
-    width: 200px;
 }
 
-.categorize .btn:hover {
+.btn:hover {
     background-color: #27548A;
-    color: #F5EEDC;
+    color: #F5EEDC !important;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
 }
 
 /*
