@@ -117,22 +117,24 @@ body {
 }
 
 .product-card {
-    width: 6rem;
-    height: 16rem;
-}
-
-.product-card .product-icon {
-    width: 20%;
-}
-
-.product-card .card-img-top {
-    margin: 0 auto;
-    width: 50%;
+    width: 200px;
+    height: 300px;
     border-radius: 10%;
 }
 
-.product-card .card-text {
-    font-size: 1rem;
+.product-card .product-icon {
+    width: 25px;
+}
+
+.product-card .card-img-top {
+    width: 100px;
+    height: 150px;
+    border-radius: 10%;
+}
+
+.product-card .product-price {
+    color: red;
+    text-align: center;
 }
 
 .categorize,

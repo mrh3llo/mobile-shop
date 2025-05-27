@@ -10,7 +10,6 @@ void success(bool status)
 
 int main() 
 {
-
     if(system("git status") != 0)
     {
         success(0);
