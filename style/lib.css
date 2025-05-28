@@ -1,0 +1,133 @@
+/*
+Color
+    https://colorhunt.co/palette/fbdb93be5b508a2d3b641b2e
+*/
+
+/*
+///////////////////////////////////////////////////////////////
+///////////////            GENERAL             ////////////////
+///////////////////////////////////////////////////////////////
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, white 0%, #F5EEDC 100%);
+}
+
+.heading {
+    font-weight: bolder;
+}
+
+.title {
+    color: #27548A;
+    margin: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card-header {
+    margin-top: 5px;
+}
+
+.card-body {
+    height: 50%;
+    max-height: 260px;
+    min-height: 180px;
+}
+
+/*
+///////////////////////////////////////////////////////////////
+///////////////             MAIN               ////////////////
+///////////////////////////////////////////////////////////////
+*/
+
+.ls-style-none {
+    list-style-type: none;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+/*
+///////////////////////////////////////////////////////////////
+///////////////          WEB HEADER            ////////////////
+///////////////////////////////////////////////////////////////
+*/
+
+.header {
+    background-color: #183B4E;
+    color: #F5EEDC;
+    padding: 15px;
+}
+
+.navbar {
+    background-color: #27548A;
+    color: #F5EEDC;
+}
+
+/*
+///////////////////////////////////////////////////////////////
+///////////////          WEB FOOTER            ////////////////
+///////////////////////////////////////////////////////////////
+*/
+
+.footer {
+    background-color: #183B4E;
+    padding: 10px;
+}
+
+.footer .footer-ele {
+    color: #F5EEDC;
+    width: fit-content;
+}
+
+.footer-ele p {
+    text-align: justify;
+    width: 400px;
+}
+
+/*
+///////////////////////////////////////////////////////////////
+///////////////            CENTER              ////////////////
+///////////////////////////////////////////////////////////////
+*/
+
+.center-btn {
+    margin: 0 auto;
+    display: block;
+}
+
+/*
+///////////////////////////////////////////////////////////////
+///////////////           ANIMATION            ////////////////
+///////////////////////////////////////////////////////////////
+*/
+
+.zoom-out-anm {
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.zoom-out-anm:hover {
+    transform: scale(1.05); /* Phóng to nhẹ */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Đổi bóng */
+}
+
+/*
+///////////////////////////////////////////////////////////////
+///////////////            EFFECT              ////////////////
+///////////////////////////////////////////////////////////////
+*/
+
+.box-shadow {
+  width: fit-content;
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}

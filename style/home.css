@@ -1,0 +1,50 @@
+.slideshow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideshow-img {
+    width: 500px;
+    height: 250px;
+}
+
+.member-img  {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.form {
+    background-color: #F5EEDC;
+    border-radius: 10px;
+}
+
+.form .form-label {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+
+.carousel {
+    max-width: 500px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    align-items: center;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.8));
+}
+
+.categorize,
+.btn{
+    background-color: aliceblue;
+    color: #183B4E !important;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.1));
+    min-width: fit-content;
+}
+
+.btn:hover {
+    background-color: #27548A;
+    color: aliceblue !important;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
+}
