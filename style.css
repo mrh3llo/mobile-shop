@@ -121,6 +121,19 @@ body {
     min-width: 260px;
 }
 
+.product-card .card-header {
+    height: 160px;
+    max-height: 170px;
+}
+
+.product-card .detail {
+    align-items: center;
+}
+
+.product-card .detail h6 {
+    font-size: 0.8rem;
+}
+
 .product-card .card-img-top {
     width: 140px;
     min-width: 130px;
@@ -139,15 +152,16 @@ body {
     align-items: center;
 }
 
-.product-card .card-body .btn {
+.product-card .card-footer .btn {
     background-color: aliceblue;
     color: #27548A;
     padding: 5px;
     margin: 0 auto;
     display: block;
+    bottom: 10px;
 }
 
-.product-card .card-body .btn:hover {
+.product-card .card-footer .btn:hover {
     background-color:#27548A;
     color: aliceblue;
     padding: 5px;
