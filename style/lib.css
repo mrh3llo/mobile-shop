@@ -39,18 +39,31 @@ body {
     min-height: 180px;
 }
 
-/*
-///////////////////////////////////////////////////////////////
-///////////////             MAIN               ////////////////
-///////////////////////////////////////////////////////////////
-*/
-
 .ls-style-none {
     list-style-type: none;
 }
 
 .fit-content {
     width: fit-content;
+}
+/*
+///////////////////////////////////////////////////////////////
+///////////////             MAIN               ////////////////
+///////////////////////////////////////////////////////////////
+*/
+
+.categorize,
+.btn {
+    background-color: aliceblue;
+    color: #183B4E !important;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.1));
+    min-width: fit-content;
+}
+
+.btn:hover {
+    background-color: #27548A;
+    color: aliceblue !important;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
 }
 
 /*

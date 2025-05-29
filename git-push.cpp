@@ -38,6 +38,7 @@ int main()
     }
 
     cout << "PUSH SUCCESS!!!";
+    system("pause");
 
     return 0;
 }
