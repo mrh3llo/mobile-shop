@@ -37,7 +37,7 @@ int main()
         }
     }
 
-    cout << "PUSH SUCCESS!!!";
+    cout << "PUSH SUCCESS!!!\n";
     system("pause");
 
     return 0;

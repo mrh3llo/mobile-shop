@@ -120,3 +120,11 @@
     color: aliceblue !important;
     filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
 }
+
+.product-price {
+    color: red;
+    padding: 20px;
+    width: fit-content;
+    border: 5px solid red;
+    border-radius: 10px;
+}
