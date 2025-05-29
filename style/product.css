@@ -83,10 +83,10 @@
 }
 
 .slideshow-img {
-    min-width: 300px;
-    max-width: 500px;
-    min-height: 150px;
-    max-height: 250px;
+    min-width: 25%;
+    max-width: 100%;
+    min-height: 25%;
+    max-height: 100%;
 }
 
 .carousel {
@@ -119,6 +119,13 @@
     background-color: #27548A;
     color: aliceblue !important;
     filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
+}
+
+.product-info {
+    background-color: #F5EEDC;
+    color: #27548A;
+    padding: 10px;
+
 }
 
 .product-price {
