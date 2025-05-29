@@ -15,6 +15,7 @@ function validateUsername(event) {
     else {
         document.getElementById("usernameErrors").innerHTML = "OK!";
         document.getElementById("usernameErrors").classList.add("text-success");
+        success = true;
         return;
     }
 
@@ -37,6 +38,7 @@ function validateEmail(event) {
     else {
         document.getElementById("emailErrors").innerHTML = "OK!";
         document.getElementById("emailErrors").classList.add("text-success");
+        success = true;
         return;
     }
 
@@ -59,6 +61,7 @@ function validatePhoneNumber(event) {
     else {
         document.getElementById("phoneNumberErrors").innerHTML = "OK!";
         document.getElementById("phoneNumberErrors").classList.add("text-success");
+        success = true;
         return;
     }
 
@@ -90,6 +93,7 @@ function validatePassword(event) {
     else {
         document.getElementById("passwordErrors").innerHTML = "OK!";
         document.getElementById("passwordErrors").classList.add("text-success");
+        success = true;
         return;
     }
 
@@ -112,6 +116,8 @@ function validateConfirmPassword(event) {
     else {
         document.getElementById("confirmErrors").innerHTML = "OK!";
         document.getElementById("confirmErrors").classList.add("text-success");
+        success = true;
+        return;
     }
 
     success = false;
