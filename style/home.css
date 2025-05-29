@@ -5,9 +5,21 @@
 }
 
 .slideshow-img {
-    width: 500px;
-    height: 250px;
+    min-width: 300px;
+    max-width: 500px;
+    min-height: 150px;
+    max-height: 250px;
 }
+
+.carousel {
+    max-width: 500px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    align-items: center;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.8));
+}
+
 
 .member-img  {
     width: 200px;
@@ -24,15 +36,6 @@
     margin: 0;
     padding: 0;
     align-content: center;
-}
-
-.carousel {
-    max-width: 500px;
-}
-
-.carousel-control-prev, .carousel-control-next {
-    align-items: center;
-    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.8));
 }
 
 .categorize,

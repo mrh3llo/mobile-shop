@@ -1,6 +1,6 @@
 /*
 ///////////////////////////////////////////////////////////////
-///////////////          WEB CONTENT            ///////////////
+///////////////          PRODUCT LINK           ///////////////
 ///////////////////////////////////////////////////////////////
 */
 
@@ -12,6 +12,12 @@
 .product-link:hover {
     color: inherit;
 }
+
+/*
+///////////////////////////////////////////////////////////////
+///////////////          PRODUCT CARD           ///////////////
+///////////////////////////////////////////////////////////////
+*/
 
 .product-card {
     max-width: 280px;
@@ -62,4 +68,32 @@
     background-color:#27548A;
     color: aliceblue;
     padding: 5px;
+}
+
+/*
+///////////////////////////////////////////////////////////////
+///////////////       PRODUCT SLIDESHOW         ///////////////
+///////////////////////////////////////////////////////////////
+*/
+
+.slideshow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideshow-img {
+    min-width: 300px;
+    max-width: 500px;
+    min-height: 150px;
+    max-height: 250px;
+}
+
+.carousel {
+    max-width: 500px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    align-items: center;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.8));
 }
