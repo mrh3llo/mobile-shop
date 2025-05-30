@@ -93,9 +93,9 @@
 .slideshow-v,
 .slideshow-v img {
     min-width: 250px;
-    max-width: 350px;
+    max-width: 300px;
     min-height: 250px;
-    max-height: 350px;
+    max-height: 300px;
 }
 
 .carousel {
@@ -135,8 +135,14 @@
 .product-rating div:nth-child(1) {
     border-radius: 10px;
     width: 30%;
+    min-width: 350px;
 }
 
 .product-rating div:nth-child(2) {
-    width: 50%;
+    width: 60%;
+    min-width: 350px;
+}
+
+.product-rating textarea {    
+    width: 90%;
 }

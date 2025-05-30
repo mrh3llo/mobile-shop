@@ -19,6 +19,20 @@ body {
     width: 100%;
 }
 
+body,
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header,
+footer {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
 .heading {
     font-weight: bolder;
 }
@@ -67,7 +81,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #27548A !important;
+    background-color: #27548A;
     color: aliceblue !important;
     filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
 }
@@ -95,19 +109,21 @@ body {
 ///////////////////////////////////////////////////////////////
 */
 
-.footer {
+footer {
     background-color: #183B4E;
     padding: 10px;
 }
 
-.footer .footer-ele {
+footer .footer-ele {
     color: #F5EEDC;
     width: fit-content;
 }
 
 .footer-ele p {
+    margin: 0 auto;
     text-align: justify;
-    width: 400px;
+    width: 80%;
+    max-width: 400px;
 }
 
 /*
@@ -126,6 +142,24 @@ body {
 ///////////////           ANIMATION            ////////////////
 ///////////////////////////////////////////////////////////////
 */
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.4;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+section,
+.product-card {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
 
 .zoom-out-anm {
     margin: 10px;

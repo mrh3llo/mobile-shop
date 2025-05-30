@@ -131,6 +131,13 @@ function validateForm(event) {
             document.getElementById("status").innerHTML = "Form submitted successfully!";
             document.getElementById("status").classList.add("text-success");
         }, 1000);
+
+        setTimeout(() => {window.location.href = "home.html";}, 1000);
+
+        setTimeout (() => {
+            document.getElementById('logSuccess').classList.add("log-success");
+            document.getElementById('logSuccess').innerHTML = "You are now signed in";
+        }, 1000);
     }
     else {
         document.getElementById("status").innerHTML = "Please fix the errors in the form.";
