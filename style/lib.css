@@ -16,6 +16,7 @@ Color
 
 body {
     background: linear-gradient(to bottom, white 0%, #F5EEDC 100%);
+    width: 100%;
 }
 
 .heading {
@@ -46,6 +47,11 @@ body {
 .fit-content {
     width: fit-content;
 }
+
+.bg-aliceblue {
+    background-color: aliceblue;
+}
+
 /*
 ///////////////////////////////////////////////////////////////
 ///////////////             MAIN               ////////////////
@@ -61,7 +67,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #27548A;
+    background-color: #27548A !important;
     color: aliceblue !important;
     filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
 }
@@ -140,7 +146,6 @@ body {
 .box-shadow {
   width: fit-content;
   height: fit-content;
-  background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  
 }
