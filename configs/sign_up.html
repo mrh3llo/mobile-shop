@@ -52,40 +52,39 @@
     ///////////////          WEB CONTENT            ///////////////
     ///////////////////////////////////////////////////////////////
     -->
-    <main class="flex-fill">
-        <h1 class="title">Sign Up</h1>
-        <div class="form container my-5 mx-auto w-25 box-shadow">
-            <form class="p-2 d-flex flex-column" onsubmit="validateForm(event)">
-                <div class="row mb-1">
-                    <label class="form-label col-sm-6" for="username">Username:</label><br>
-                    <input class="form-control col-sm-6 w-50" id="username" type="text" placeholder="Username" onkeyup="validateUsername(event)">
-                    <p id="usernameErrors" class="text-end m-0 p-0"></p>
-                </div>
-                <div class="row mb-1">
-                    <label class="form-label col-sm-6" for="email">Email:</label><br>
-                    <input class="form-control col-sm-6 w-50" id="email" type="email" placeholder="Email" onkeyup="validateEmail(event)">
-                    <p id="emailErrors" class="text-end m-0 p-0"></p>
-                </div>
-                <div class="row mb-1">
-                    <label class="form-label col-sm-6" for="phone-number">Phone number:</label><br>
-                    <input class="form-control col-sm-6 w-50" id="phoneNumber" type="text" placeholder="Phone number" onkeyup="validatePhoneNumber(event)">
-                    <p id="phoneNumberErrors" class="text-end m-0 p-0"></p>
-                </div>
-                <div class="row mb-1">
-                    <label class="form-label col-sm-6" for="password">Password:</label><br>
-                    <input class="form-control col-sm-6 w-50" id="password" type="password" placeholder="Password" onkeyup="validatePassword(event)">
-                    <p id="passwordErrors" class="text-end m-0 p-0"></p>               
-                </div>
-                <div class="row mb-1">
-                    <label class="form-label col-sm-6" for="confirm">Confirm password:</label><br>
-                    <input class="form-control col-sm-6 w-50" id="confirm" type="password" placeholder="Confirm password" onkeyup="validateConfirmPassword(event)">
-                    <p id="confirmErrors" class="text-end m-0 p-0"></p>
-                </div>
-                <p id="status" class="text-center"></p> 
-                <button class="btn my-1 mx-auto p-3 box-shadow" type="submit">Sign Up</button>
-            </form>
-        </div>
-    </main>
+    <h1 class="title">Sign Up</h1>
+    <div class="form container my-5 mx-auto w-25 box-shadow">
+        <form class="p-2 d-flex flex-column" onsubmit="validateForm(event)">
+            <div class="row mb-1">
+                <label class="form-label col-sm-6" for="username">Username:</label><br>
+                <input class="form-control col-sm-6 w-50" id="username" type="text" placeholder="Username" onkeyup="validateUsername(event)">
+                <p id="usernameErrors" class="text-end m-0 p-0"></p>
+            </div>
+            <div class="row mb-1">
+                <label class="form-label col-sm-6" for="email">Email:</label><br>
+                <input class="form-control col-sm-6 w-50" id="email" type="email" placeholder="Email" onkeyup="validateEmail(event)">
+                <p id="emailErrors" class="text-end m-0 p-0"></p>
+            </div>
+            <div class="row mb-1">
+                <label class="form-label col-sm-6" for="phone-number">Phone number:</label><br>
+                <input class="form-control col-sm-6 w-50" id="phoneNumber" type="text" placeholder="Phone number" onkeyup="validatePhoneNumber(event)">
+                <p id="phoneNumberErrors" class="text-end m-0 p-0"></p>
+            </div>
+            <div class="row mb-1">
+                <label class="form-label col-sm-6" for="password">Password:</label><br>
+                <input class="form-control col-sm-6 w-50" id="password" type="password" placeholder="Password" onkeyup="validatePassword(event)">
+                <p id="passwordErrors" class="text-end m-0 p-0"></p>               
+            </div>
+            <div class="row mb-1">
+                <label class="form-label col-sm-6" for="confirm">Confirm password:</label><br>
+                <input class="form-control col-sm-6 w-50" id="confirm" type="password" placeholder="Confirm password" onkeyup="validateConfirmPassword(event)">
+                <p id="confirmErrors" class="text-end m-0 p-0"></p>
+            </div>
+            <p>You already have an account? <a href="sign_in.html">Sign In</a></p>
+            <p id="status" class="text-center"></p> 
+            <button class="btn my-1 mx-auto p-3 box-shadow" type="submit">Sign Up</button>
+        </form>
+    </div>
     <!--
     ///////////////////////////////////////////////////////////////
     ///////////////          WEB FOOTER            ////////////////

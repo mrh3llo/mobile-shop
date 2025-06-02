@@ -52,25 +52,24 @@
     ///////////////          WEB CONTENT            ///////////////
     ///////////////////////////////////////////////////////////////
     -->
-    <main class="flex-fill">
-        <h1 class="title">Sign In</h1>
-        <div class="form container my-5 mx-auto w-25 box-shadow">
-            <form class="p-2 d-flex flex-column" onsubmit="validateForm(event)">
-                <div class="row mb-1">
-                    <label class="form-label col-sm-6" for="username">Username:</label><br>
-                    <input class="form-control col-sm-6 w-50" id="username" type="text" placeholder="Username" onkeyup="validateUsername(event)">
-                    <p id="usernameErrors" class="text-end m-0 p-0"></p>
-                </div>
-                <div class="row mb-1">
-                    <label class="form-label col-sm-6" for="password">Password:</label><br>
-                    <input class="form-control col-sm-6 w-50" id="password" type="password" placeholder="Password" onkeyup="validatePassword(event)">
-                    <p id="passwordErrors" class="text-end m-0 p-0"></p>
-                </div>
-                <p id="status" class="text-center"></p>
-                <button class="btn my-1 mx-auto p-3 box-shadow" type="submit">Sign In</button>
-            </form>
-        </div>
-    </main>
+    <h1 class="title">Sign In</h1>
+    <div class="form container my-5 mx-auto w-25 box-shadow">
+        <form class="p-2 d-flex flex-column" onsubmit="validateForm(event)">
+            <div class="row mb-1">
+                <label class="form-label col-sm-6" for="username">Username:</label><br>
+                <input class="form-control col-sm-6 w-50" id="username" type="text" placeholder="Username" onkeyup="validateUsername(event)">
+                <p id="usernameErrors" class="text-end m-0 p-0"></p>
+            </div>
+            <div class="row mb-1">
+                <label class="form-label col-sm-6" for="password">Password:</label><br>
+                <input class="form-control col-sm-6 w-50" id="password" type="password" placeholder="Password" onkeyup="validatePassword(event)">
+                <p id="passwordErrors" class="text-end m-0 p-0"></p>
+            </div>
+            <p>You don't have an account? <a href="sign_up.html">Sign Up</a></p>
+            <p id="status" class="text-center"></p>
+            <button class="btn my-1 mx-auto p-3 box-shadow" type="submit">Sign In</button>
+        </form>
+    </div>
     <!--
     ///////////////////////////////////////////////////////////////
     ///////////////          WEB FOOTER            ////////////////
