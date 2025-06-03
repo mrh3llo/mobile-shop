@@ -16,9 +16,29 @@ function reciveValue(value) {
     return urlValue.get(value);
 }
 
-let option = toString(reciveValue('option'));
+let option = reciveValue('option');
 
-if(option == 'phone') {
-    console.log('Option: Phone');
-    
+const phoneClass = document.getElementsByClassName("phone");
+const tabletClass = document.getElementsByClassName("tablet");
+const laptopClass = document.getElementsByClassName("laptop");
+
+if(option == 'phone') {    
+    for(let tablet of tabletClass)
+        tablet.classList.add('d-none');
+    for(let laptop of laptopClass)
+        laptop.classList.add('d-none');
+}
+else if(option == 'tablet')
+{
+    for(let phone of phoneClass)
+        phone.classList.add('d-none');
+    for(let laptop of laptopClass)
+        laptop.classList.add('d-none');
+}
+else
+{
+    for(let phone of phoneClass)
+        phone.classList.add('d-none');
+    for(let tablet of tabletClass)
+        tablet.classList.add('d-none');
 }
