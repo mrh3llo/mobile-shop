@@ -20,8 +20,10 @@
 */
 
 .product-card {
+    padding: 10px;
     max-width: 280px;
     min-width: 260px;
+    height: fit-content;
 }
 
 .product-card .card-header {

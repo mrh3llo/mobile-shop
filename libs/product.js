@@ -62,8 +62,8 @@ function displayProduct(productObjList) {
 
         //Get data form product.json then display
         displayProduct += `
-        <a class="product-link" href="${productObj.link}">
-            <div class="${productObj.type} ${isDisplay(display)} product-card card m-2 p-0 zoom-out-anm">
+        <div class="${productObj.type} ${isDisplay(display)} product-card card col-md-3 zoom-out-anm">
+            <a class="product-link" href="${productObj.link}">
                 <div class="card-header d-flex justify-content-center">
                     <img class="card-img-top" src="${productObj.img}" alt="${productObj.name}">
                     <div class="detail w-50">
@@ -90,11 +90,12 @@ function displayProduct(productObjList) {
                     <h5 class="card-title text-center text-danger">${productObj.price}</h5>
                     <p class="card-text">${productObj.description}</p>
                 </div>
-                <div class="card-footer">
-                    <button class="btn">Order Now</button>
-                </div>
+            </a>
+            <div class="card-footer">
+                <button class="btn">Order Now</button>
             </div>
-        </a>`;
+        </div>
+            `;
     });
 
     document.getElementById('product').innerHTML = displayProduct;
